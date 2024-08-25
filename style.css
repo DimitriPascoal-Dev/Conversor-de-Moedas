@@ -1,0 +1,124 @@
+/*font-family: "DM Serif Text", serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Serif Text", serif;
+    outline: none;
+}
+
+body {
+    background-color: #3c147e;
+    
+
+}
+
+.logo{
+    width: 130px;
+    display: block;
+    margin: 20px auto;
+
+}
+
+main {
+    width: 260px;
+    border-radius: 10px;
+    background-color: #F4F4F4;
+    margin: 0 auto 40px;
+    padding: 13px 14px 13px;
+    height: 460px;
+    
+}
+
+label {
+    color: #777777;
+    font-weight: 300px;
+    font-size: 12px;
+}
+
+select, input {
+    background-color: #ffffff;
+    border:1px solid #BBBBBB;
+    border-radius:  4px;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 14px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 550;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color:  #3c147e ;
+    height: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+   border: 1px solid #3c147e;
+   border-radius: 20px;
+   margin-top: 18px;
+   padding: 22px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+   
+   
+}
+
+.arrow-img {
+    margin: 15px 0;
+    height: 15px;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    height: 50px;
+
+}
+
+.currency {
+    color: #777777;
+    font-size: 13px;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #424242;
+    font-size: 13px;
+    font-weight: 400px;
+}
+
+.logo-brasil {
+    height: 21px;
+}
+
+.logo-usa {
+    height: 21px;
+}
+
+.creditos {
+    text-align: center;
+    color: white;
+}
